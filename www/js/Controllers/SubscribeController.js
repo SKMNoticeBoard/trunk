@@ -1,5 +1,7 @@
-SubcribeController.$inject = ['$scope','SubcribeService'];
+SubscribeController.$inject = ['$scope','SubscribeService'];
 
-function RegisterController ($scope, SubcribeService){
+function SubscribeController ($scope, SubscribeService){
 
 }
+
+

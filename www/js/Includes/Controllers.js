@@ -1,11 +1,12 @@
-var controllers = ['/Controllers/CabinetController.js',
+var includesConfig = {
+  controllers : [
+          '/Controllers/CabinetController.js',
 					'/Controllers/EventsController.js',
 					'/Controllers/LocalGovernmentController.js',
 					'/Controllers/LoginController.js',
 					'/Controllers/MainController.js',
 					'/Controllers/MeetingController.js',
 					'/Controllers/NationalGovernmentController.js',
-					'/Controllers/ProvincialController.js',
 					'/Controllers/RegisterController.js',
 					'/Controllers/SubscribeController.js'
-]
+]};
