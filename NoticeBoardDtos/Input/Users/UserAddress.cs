@@ -7,15 +7,18 @@ using System.Threading.Tasks;
 
 namespace NoticeBoardDtos.Input.Users
 {
-    public class UserAddressDetails
+    public class UserAddress
     {
+        public int UserProfileId { get; set; }
         public string HouseNumber { get; set; }
         public string StreetName { get; set; }
         public string SuburbName { get; set; }
         public string PostalCode { get; set; }
-        public Province Province { get; set; }
-        public Town Town { get; set; }
-        public LocalMunicipality LocalMunicipality { get; set; }
-
+        public string Province { get; set; }
+        public string Town { get; set; }
+        public string LocalMunicipality { get; set; }
+        public int Ward { get; set; }
+        public virtual UserProfile UserProfile { get; set; }
     }
 }
+ 

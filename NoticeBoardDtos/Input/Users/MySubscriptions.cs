@@ -12,7 +12,7 @@ namespace NoticeBoardDtos.Input.Users
         public int UserId { get; set;}
         public bool Subscribed { get; set;}
         public string URLIcon { get; set; } 
-        public NoticeBoardDtos.Enums.Enums.Subscriptions SubscriptionType { get; set;}
+        public NoticeBoardDtos.EnumServices.EnumServices.Subscriptions SubscriptionType { get; set;}
         public UserProfile UserProfile { get; set;}
     }
 }

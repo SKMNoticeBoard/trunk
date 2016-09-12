@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoticeBoardDtos.Enums
+namespace NoticeBoardDtos.EnumServices
 {
-    public class Enums
+    public class EnumServices
     {
         public enum Gender
         {
