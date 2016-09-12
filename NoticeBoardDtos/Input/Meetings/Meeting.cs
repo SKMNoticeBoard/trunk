@@ -11,7 +11,7 @@ namespace NoticeBoardDtos.Input.Meetings
         public int MeetingId { get; set; }
         public string Title { get; set; }
         public string IconUrl { get; set; }
-        public string ihhconUrl { get; set; }
+        public string iconUrl { get; set; }
         public DateTime Date { get; set; }
         public DateTime Time { get; set; }
         public string ShortDescription { get; set; }
