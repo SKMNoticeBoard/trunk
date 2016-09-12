@@ -2,6 +2,6 @@ G:\NTCBoard\NoticeBoardApi\IMeetings\bin\Debug\IMeetings.dll
 G:\NTCBoard\NoticeBoardApi\IMeetings\bin\Debug\IMeetings.pdb
 G:\NTCBoard\NoticeBoardApi\IMeetings\bin\Debug\NoticeBoardDtos.dll
 G:\NTCBoard\NoticeBoardApi\IMeetings\bin\Debug\NoticeBoardDtos.pdb
-G:\NTCBoard\NoticeBoardApi\IMeetings\obj\Debug\IMeetings.csprojResolveAssemblyReference.cache
 G:\NTCBoard\NoticeBoardApi\IMeetings\obj\Debug\IMeetings.dll
 G:\NTCBoard\NoticeBoardApi\IMeetings\obj\Debug\IMeetings.pdb
+G:\NTCBoard\NoticeBoardApi\IMeetings\obj\Debug\IMeetings.csprojResolveAssemblyReference.cache

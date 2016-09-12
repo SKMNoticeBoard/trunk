@@ -10,10 +10,7 @@ namespace NoticeBoardDtos.Input
 {
     public class Login
     {
-        public Login()
-        {
-
-        }
+        public Login(){}
         [Key]
         public int UserId { get; set; }
         public string UserName { get; set; }

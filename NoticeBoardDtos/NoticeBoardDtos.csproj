@@ -48,12 +48,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Input\Login.cs" />
+    <Compile Include="Enums\Enums.cs" />
+    <Compile Include="Input\Events\Event.cs" />
+    <Compile Include="Input\Events\EventLocation.cs" />
+    <Compile Include="Input\Events\EventSubActivity.cs" />
+    <Compile Include="Input\Events\EventSpeakers.cs" />
+    <Compile Include="Input\Users\MySubscriptions.cs" />
+    <Compile Include="Input\Users\OtherAreasOfInterest.cs" />
+    <Compile Include="Input\Users\UserLocationDetails\LocalMunicipality.cs" />
+    <Compile Include="Input\Users\UserLocationDetails\Province.cs" />
+    <Compile Include="Input\Users\UserLocationDetails\Town.cs" />
+    <Compile Include="Input\Users\UserLocationDetails\Ward.cs" />
+    <Compile Include="Input\Users\Login.cs" />
+    <Compile Include="Input\Meetings\Meeting.cs" />
+    <Compile Include="Input\Meetings\MeetingLocation.cs" />
+    <Compile Include="Input\Users\UserProfile.cs" />
+    <Compile Include="Input\Users\UserAddressDetails.cs" />
+    <Compile Include="Output\StandardOut.cs" />
+    <Compile Include="Output\User\Register.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Output\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
