@@ -10,6 +10,7 @@ namespace NoticeBoardDtos.Input.Meetings
     {
         [Key]
         public int MeetingLocationId { get; set; }
+        public int MeetingId { get; set; }
         public string City { get; set; }
         public int Saburb { get; set; }
         public int Street { get; set; }

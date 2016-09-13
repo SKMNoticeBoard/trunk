@@ -11,11 +11,13 @@ namespace NoticeBoardDtos.Input.Meetings
     {
         [Key]
         public int MeetingId { get; set; }
+        public int AgendaId { get; set; }
         public string Title { get; set; }
         public string iconUrl { get; set; }
         public DateTime Date { get; set; }
         public DateTime Time { get; set; }
         public string ShortDescription { get; set; }
+        public Agenda Agenda { get; set; }
         public MeetingLocation Location { get; set; }
     }
 }

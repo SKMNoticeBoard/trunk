@@ -11,13 +11,9 @@ namespace NoticeBoardDtos.Input.Meetings
     {
         [Key]
         public int AgendaId { get; set; }
-
         public string MeetingInformation { get; set; }
-
         public string AdditionInformation { get; set; }
-
         public string CallToOrder { get; set; }
-
         public string PledgeOfPreviousMeetingMinutes { get; set; }
     }
 }
