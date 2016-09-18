@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBContext\NoticeBoardDbContext.cs" />
+    <Compile Include="EntityConfiguration\Meetings\ItemOfActionConfiguration.cs" />
+    <Compile Include="EntityConfiguration\Meetings\MeetingItemConfiguration.cs" />
+    <Compile Include="EntityConfiguration\Meetings\MinutesConfiguration.cs" />
     <Compile Include="EntityConfiguration\Users\MySubscriptionsConfiguration.cs" />
     <Compile Include="EntityConfiguration\Users\OtherAreasOfInterestConfiguration.cs" />
     <Compile Include="EntityConfiguration\Users\UserAddressConfiguration.cs" />

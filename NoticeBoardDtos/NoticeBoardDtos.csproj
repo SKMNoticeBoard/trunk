@@ -54,6 +54,9 @@
     <Compile Include="Input\Events\EventSubActivity.cs" />
     <Compile Include="Input\Events\EventSpeakers.cs" />
     <Compile Include="Input\Meetings\Agenda.cs" />
+    <Compile Include="Input\Meetings\ItemOfAction.cs" />
+    <Compile Include="Input\Meetings\MeetingItem.cs" />
+    <Compile Include="Input\Meetings\Minutes.cs" />
     <Compile Include="Input\Users\MySubscriptions.cs" />
     <Compile Include="Input\Users\OtherAreasOfInterest.cs" />
     <Compile Include="Input\Users\UserLocationDetails\LocalMunicipality.cs" />
