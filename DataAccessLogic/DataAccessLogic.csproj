@@ -48,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBContext\NoticeBoardDbContext.cs" />
+    <Compile Include="EntityConfiguration\Users\MySubscriptionsConfiguration.cs" />
+    <Compile Include="EntityConfiguration\Users\OtherAreasOfInterestConfiguration.cs" />
+    <Compile Include="EntityConfiguration\Users\UserAddressConfiguration.cs" />
+    <Compile Include="EntityConfiguration\Users\UsersConfiguration.cs" />
     <Compile Include="MyConfiguration.cs" />
     <Compile Include="NoticeBoardContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -9,6 +9,7 @@ namespace NoticeBoardDtos.Input.Users
 {
     public class UserAddress
     {
+        public int UserAddressId { get; set; }
         public int UserProfileId { get; set; }
         public string HouseNumber { get; set; }
         public string StreetName { get; set; }
