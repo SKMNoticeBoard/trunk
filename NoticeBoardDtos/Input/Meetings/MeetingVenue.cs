@@ -6,7 +6,7 @@ using System.Text;
 
 namespace NoticeBoardDtos.Input.Meetings
 {
-    public class MeetingLocation
+    public class MeetingVenue
     {
         [Key]
         public int MeetingLocationId { get; set; }

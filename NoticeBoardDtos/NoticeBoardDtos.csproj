@@ -57,6 +57,9 @@
     <Compile Include="Input\Meetings\ItemOfAction.cs" />
     <Compile Include="Input\Meetings\MeetingItem.cs" />
     <Compile Include="Input\Meetings\Minutes.cs" />
+    <Compile Include="Input\Meetings\NewBusiness.cs" />
+    <Compile Include="Input\Meetings\NextMeetingDetails.cs" />
+    <Compile Include="Input\Meetings\OldBusiness.cs" />
     <Compile Include="Input\Users\MySubscriptions.cs" />
     <Compile Include="Input\Users\OtherAreasOfInterest.cs" />
     <Compile Include="Input\Users\UserLocationDetails\LocalMunicipality.cs" />
@@ -65,7 +68,7 @@
     <Compile Include="Input\Users\UserLocationDetails\Ward.cs" />
     <Compile Include="Input\Users\Login.cs" />
     <Compile Include="Input\Meetings\Meeting.cs" />
-    <Compile Include="Input\Meetings\MeetingLocation.cs" />
+    <Compile Include="Input\Meetings\MeetingVenue.cs" />
     <Compile Include="Input\Users\UserProfile.cs" />
     <Compile Include="Input\Users\UserAddress.cs" />
     <Compile Include="Output\StandardOut.cs" />
